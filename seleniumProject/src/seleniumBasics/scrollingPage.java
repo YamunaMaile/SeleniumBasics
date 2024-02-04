@@ -36,7 +36,7 @@ public class scrollingPage {
 		
 		obj.executeScript("window.scrollBy(-400,0)"); //scroll left side is minus value
 		Thread.sleep(5000);
-		System.out.println("Scroll left is done");
+		System.out.println("Scroll left is done ");
 		
 		driver.quit();
 	}
